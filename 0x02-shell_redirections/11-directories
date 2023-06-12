@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not .. | ls -al
+find . -type d not . | ls -al
