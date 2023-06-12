@@ -1,3 +1,2 @@
 #!/bin/bash
-answer=$(tail -n 1 iacta)
-echo "$answer" >> iacta
+tail -n 1 iacta >> iacta
